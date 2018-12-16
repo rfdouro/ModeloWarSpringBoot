@@ -8,11 +8,12 @@
                 <packaging>ejb</packaging>
             </packagings>
             <goals>
+                <goal>clean</goal>
                 <goal>package</goal>
             </goals>
             <properties>
-                <netbeans.deploy>true</netbeans.deploy>
-                <netbeans.deploy.clientUrlPart>http://localhost:8080</netbeans.deploy.clientUrlPart>
+                
+                <netbeans.deploy.clientUrlPart></netbeans.deploy.clientUrlPart>
             </properties>
         </action>
         <action>
@@ -28,7 +29,7 @@
             <properties>
                 <netbeans.deploy.debugmode>true</netbeans.deploy.debugmode>
                 <netbeans.deploy>true</netbeans.deploy>
-                <netbeans.deploy.clientUrlPart>http://localhost:8080</netbeans.deploy.clientUrlPart>
+                <netbeans.deploy.clientUrlPart></netbeans.deploy.clientUrlPart>
             </properties>
         </action>
         <action>
